@@ -9,7 +9,7 @@ IS OBJECT
     lat NUMBER(9,6),
     city VARCHAR(20)
 );
-
+/
 CREATE TYPE cursor_table IS TABLE OF view_type;
 /
 CREATE OR REPLACE FUNCTION get_data(lon1 place4.longitude%type, lon2 place4.longitude%type, lat1 place4.latitude%TYPE, lat2 place4.latitude%TYPE)
