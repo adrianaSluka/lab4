@@ -11,7 +11,7 @@ select * from event4;
 INSERT INTO user_event4
 VALUES(3, NULL);
 INSERT INTO comment4(comment_id, comment_text, event_id, username)
-VALUES(6, '5678', 3, null)
+VALUES(6, '5678', 3, null);
 INSERT INTO user_event4 (event_id, username)
 VALUES (2, null);
 INSERT INTO comment4 (comment_id, comment_text, event_id, username)
