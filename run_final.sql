@@ -21,7 +21,8 @@ VALUES('triangle', 60 ,TO_TIMESTAMP('06/29/2011 17:30', 'MM/DD/YYYY HH24:MI') , 
 
 --procedure
 exec lab_pack.delete_info(2, 'Bob');
-
+exec lab_pack.delete_info(2, 'John');
+                                      
 select * from user_event4;
 select * from comment4;
 select * from user4;
